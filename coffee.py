@@ -57,6 +57,6 @@ if __name__ == "__main__":
 
     if results:
         message = "\n".join(results)
-        notify_send("Τιμές καφέ (Nescafe DG Espresso Intenso)", message)
+        notify_send("Τιμές καφέ (Nescafe Dolce Gusto Espresso Intenso)", message)
     else:
         notify_send("Τιμές καφέ", "Δεν βρέθηκαν τιμές από τα διαθέσιμα supermarkets.")
