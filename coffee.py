@@ -43,7 +43,7 @@ SCRAPERS = {
 }
 
 def notify_send(title, message):
-    subprocess.run(['notify-send', title, message])
+    subprocess.run(['notify-send', '-t','10000', title, message])
 
 if __name__ == "__main__":
     results = []
@@ -56,7 +56,6 @@ if __name__ == "__main__":
             pass
 
     if results:
-        # Κάθε τιμή σε νέα γραμμή για ευκολία στην ανάγνωση
         message = "\n".join(results)
         notify_send("Τιμές καφέ (Nescafe DG Espresso Intenso)", message)
     else:
