@@ -1,0 +1,1 @@
+# coffee-capsule-price-desktop-notifier
