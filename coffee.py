@@ -43,7 +43,7 @@ SCRAPERS = {
 }
 
 def notify_send(title, message):
-    subprocess.run(['notify-send', '-t','10000', title, message])
+    subprocess.run(['notify-send', '-t','20000', title, message])
 
 if __name__ == "__main__":
     results = []
